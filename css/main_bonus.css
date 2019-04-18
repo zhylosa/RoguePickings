@@ -1,0 +1,143 @@
+/**BASE STYLE**/
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding:0px 1.61%;
+	width:100%;
+}
+
+/**GRID**/
+.full-width, .bottom_section{
+	clear:both;
+	margin: 0 auto;
+	width:96.77%px;
+}
+
+.half-width{
+	float: left;
+	width: 48.39%;
+}
+
+
+/**HEADER**/
+header.full-width #top{
+	height: 8.87%;
+}
+
+header h1{
+	color: #bbc085;
+	font-size: 30px;
+	font-weight:bold;
+	padding: 3.22% 0% 4.03% 0%;
+	text-transform:uppercase;
+}
+
+nav{
+	float:right;
+	padding: 4.03% 0%;
+}
+
+header h1 span{
+	color:black;
+	font-weight:boldest;
+	}
+	
+header ul li{
+	display: inline-block;
+}
+
+nav ul li a {
+	color:#77a466;
+	font-size: 14px;
+	font-weight:bold;
+	padding-left:23px;
+	text-transform:uppercase;
+	text-decoration:none;
+}	
+#food-img{
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+
+}
+#about  h2, #about  p{
+	margin: 2.42% 0%;
+}
+
+#about h2, .menu h4, .review h4, .contact h4 {
+	clear:both;
+	text-transform:uppercase;
+}
+
+#about h2{
+	color:#77a466;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+#about p{
+	font-size:16px;
+	line-height:30px;
+	padding: 0% 1.62% 0% 0%; 
+}
+
+.bottom_section{
+	border-top: 1px solid lightgrey;
+	margin: 0% 0% 0% 1.62%;
+}
+
+.menu{
+	float: left;
+	width: 32.25%;
+}
+
+
+.menu h4, .review h4, .contact h4 {
+	font-size: 14px;
+	font-weight: boldest;
+}
+
+.menu p, .review p, .contact p {
+	font-size: 17px;
+}
+
+.bottom_section .menu p span{
+	color: #77a466;
+}
+
+.review{
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	float: left;
+	width: 32.25%;
+	padding: 0% 1.62% 0% 1.62%
+}
+
+.contact{
+	float: left;
+	line-height: 25px;
+	width: 32.25%;
+	padding: 0% 1.62% 0% 1.62%;
+}
+
+
+.powered_by{
+	clear:both;
+	text-align:center;
+	font-size: 16px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding: .81% 0%;
+}
+
+footer p span{
+	color:#77a466;
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	font-style: italic;
+	font-weight:normal;
+	text-transform:lowercase;	
+}
+footer {
+	border-top: 1px solid lightgrey;
+	clear:both;
+	margin: 0 1.62%;
+}
